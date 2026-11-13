@@ -1,0 +1,22 @@
+arm,checkpoint,train_iters,train_battles,opponent,win_rate,ci_lo,ci_hi
+curriculum (random → maxbasepower → simpleheuristics),v1,200,3200,random,0.885,0.8333517476611362,0.9221368277817569
+curriculum (random → maxbasepower → simpleheuristics),v1,200,3200,maxbasepower,0.3,0.24074644243406385,0.3667919599332645
+curriculum (random → maxbasepower → simpleheuristics),v1,200,3200,simpleheuristics,0.05,0.027382349028644986,0.08957905629784384
+curriculum (random → maxbasepower → simpleheuristics),c400,400,6400,random,0.89,0.8390720169908702,0.9262280983928396
+curriculum (random → maxbasepower → simpleheuristics),c400,400,6400,maxbasepower,0.385,0.3203319691791383,0.4540026121820756
+curriculum (random → maxbasepower → simpleheuristics),c400,400,6400,simpleheuristics,0.115,0.07786317221824318,0.16664825233886393
+curriculum (random → maxbasepower → simpleheuristics),c600,600,9600,random,0.915,0.8681031145576462,0.9462547005301477
+curriculum (random → maxbasepower → simpleheuristics),c600,600,9600,maxbasepower,0.41,0.34415559179081295,0.4792366892744849
+curriculum (random → maxbasepower → simpleheuristics),c600,600,9600,simpleheuristics,0.11,0.07377190160716048,0.16092798300912986
+scratch vs simpleheuristics,s200,200,3200,random,0.195,0.14605441564505764,0.25544164796511815
+scratch vs simpleheuristics,s200,200,3200,maxbasepower,0.015,0.005114145184492387,0.043166480556278884
+scratch vs simpleheuristics,s200,200,3200,simpleheuristics,0.005,0.0008831459893662054,0.02777439986977148
+scratch vs simpleheuristics,s400,400,6400,random,0.17,0.12427835351105657,0.22816001039503528
+scratch vs simpleheuristics,s400,400,6400,maxbasepower,0.025,0.010724561470787711,0.05717914415161715
+scratch vs simpleheuristics,s400,400,6400,simpleheuristics,0.0,0.0,0.018846005918320894
+scratch vs simpleheuristics,s600,600,9600,random,0.7,0.6332080400667355,0.759253557565936
+scratch vs simpleheuristics,s600,600,9600,maxbasepower,0.26,0.20413736892786316,0.32490871391293097
+scratch vs simpleheuristics,s600,600,9600,simpleheuristics,0.055,0.030985020801370097,0.0957879244659355
+scratch vs maxbasepower,smbp,200,3200,random,0.875,0.8219846471534161,0.9138808484078432
+scratch vs maxbasepower,smbp,200,3200,maxbasepower,0.43,0.36334204488394795,0.49929639594461706
+scratch vs maxbasepower,smbp,200,3200,simpleheuristics,0.07,0.04215178292291873,0.11405578216683726

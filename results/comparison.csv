@@ -1,0 +1,55 @@
+file,label,algorithm,training_battles,eval_policy,note,opponent,wins,n,win_rate,ci_lo,ci_hi
+eval2_reinforce_v1,REINFORCE v1 (seed 0),REINFORCE,3200,sampled,equal budget,random,174,200,0.87,0.8163353692726989,0.9097185863477437
+eval2_reinforce_v1,REINFORCE v1 (seed 0),REINFORCE,3200,sampled,equal budget,maxbasepower,78,200,0.39,0.325082297194914,0.45906382410711677
+eval2_reinforce_v1,REINFORCE v1 (seed 0),REINFORCE,3200,sampled,equal budget,simpleheuristics,21,200,0.105,0.0697069624619373,0.15518138221353622
+eval2_reinforce_v1s1,REINFORCE v1 (seed 1),REINFORCE,3200,sampled,equal budget,random,188,200,0.94,0.8980673646931491,0.9653481500987285
+eval2_reinforce_v1s1,REINFORCE v1 (seed 1),REINFORCE,3200,sampled,equal budget,maxbasepower,107,200,0.535,0.46586521028994954,0.6028155692957681
+eval2_reinforce_v1s1,REINFORCE v1 (seed 1),REINFORCE,3200,sampled,equal budget,simpleheuristics,27,200,0.135,0.09446507976920289,0.18929250455117141
+eval2_dqn_v1_lr1e-3,"DQN v1 (seed 0, lr 1e-3)",DQN,3200,eps 0.05,equal budget,random,160,200,0.8,0.7391436038882958,0.8495487925607118
+eval2_dqn_v1_lr1e-3,"DQN v1 (seed 0, lr 1e-3)",DQN,3200,eps 0.05,equal budget,maxbasepower,64,200,0.32,0.2592642960770526,0.38752026605354306
+eval2_dqn_v1_lr1e-3,"DQN v1 (seed 0, lr 1e-3)",DQN,3200,eps 0.05,equal budget,simpleheuristics,14,200,0.07,0.04215178292291873,0.11405578216683726
+eval2_reinforce_v1_greedy,REINFORCE v1 (seed 0),REINFORCE,3200,argmax,greedy row,random,191,200,0.955,0.9167024063390322,0.9761477282752958
+eval2_reinforce_v1_greedy,REINFORCE v1 (seed 0),REINFORCE,3200,argmax,greedy row,maxbasepower,109,200,0.545,0.4757848503696115,0.6125190090977398
+eval2_reinforce_v1_greedy,REINFORCE v1 (seed 0),REINFORCE,3200,argmax,greedy row,simpleheuristics,36,200,0.18,0.13294550662534108,0.2391159371623843
+eval2_reinforce_v1s1_greedy,REINFORCE v1 (seed 1),REINFORCE,3200,argmax,greedy row,random,188,200,0.94,0.8980673646931491,0.9653481500987285
+eval2_reinforce_v1s1_greedy,REINFORCE v1 (seed 1),REINFORCE,3200,argmax,greedy row,maxbasepower,103,200,0.515,0.44610724474630287,0.5833273750761476
+eval2_reinforce_v1s1_greedy,REINFORCE v1 (seed 1),REINFORCE,3200,argmax,greedy row,simpleheuristics,29,200,0.145,0.1028928513530641,0.20048781284894374
+eval2_dqn_v1_lr1e-3_greedy,"DQN v1 (seed 0, lr 1e-3)",DQN,3200,eps 0,greedy row,random,168,200,0.84,0.7828581380609876,0.8843265779145542
+eval2_dqn_v1_lr1e-3_greedy,"DQN v1 (seed 0, lr 1e-3)",DQN,3200,eps 0,greedy row,maxbasepower,75,200,0.375,0.3108532530524515,0.44385824842712884
+eval2_dqn_v1_lr1e-3_greedy,"DQN v1 (seed 0, lr 1e-3)",DQN,3200,eps 0,greedy row,simpleheuristics,15,200,0.075,0.045974507057252416,0.12004459797332034
+eval2_reinforce_c400,REINFORCE c400 (v1 +200 it vs maxbasepower),REINFORCE,6400,sampled,curriculum (5b),random,186,200,0.93,0.8859442178331628,0.9578482170770813
+eval2_reinforce_c400,REINFORCE c400 (v1 +200 it vs maxbasepower),REINFORCE,6400,sampled,curriculum (5b),maxbasepower,110,200,0.55,0.48075488574571107,0.6173605136624569
+eval2_reinforce_c400,REINFORCE c400 (v1 +200 it vs maxbasepower),REINFORCE,6400,sampled,curriculum (5b),simpleheuristics,31,200,0.155,0.11139568514638545,0.211608058937256
+eval2_dqn_lr1e-3_c400,"DQN c400 (v1 +200 it vs maxbasepower, lr 2.5e-4)",DQN,6400,eps 0.05,curriculum (5b),random,162,200,0.81,0.7499864142552062,0.8583290620754351
+eval2_dqn_lr1e-3_c400,"DQN c400 (v1 +200 it vs maxbasepower, lr 2.5e-4)",DQN,6400,eps 0.05,curriculum (5b),maxbasepower,50,200,0.25,0.19508076816296532,0.3143422347961952
+eval2_dqn_lr1e-3_c400,"DQN c400 (v1 +200 it vs maxbasepower, lr 2.5e-4)",DQN,6400,eps 0.05,curriculum (5b),simpleheuristics,14,200,0.07,0.04215178292291873,0.11405578216683726
+eval2_reinforce_c600,REINFORCE c600 (c400 +200 it vs simpleheuristics),REINFORCE,9600,sampled,curriculum (5b),random,186,200,0.93,0.8859442178331628,0.9578482170770813
+eval2_reinforce_c600,REINFORCE c600 (c400 +200 it vs simpleheuristics),REINFORCE,9600,sampled,curriculum (5b),maxbasepower,109,200,0.545,0.4757848503696115,0.6125190090977398
+eval2_reinforce_c600,REINFORCE c600 (c400 +200 it vs simpleheuristics),REINFORCE,9600,sampled,curriculum (5b),simpleheuristics,36,200,0.18,0.13294550662534108,0.2391159371623843
+eval2_dqn_lr1e-3_c600,"DQN c600 (c400 +200 it vs simpleheuristics, lr 2.5e-4)",DQN,9600,eps 0.05,curriculum (5b),random,135,200,0.675,0.6073185684304498,0.736085329498138
+eval2_dqn_lr1e-3_c600,"DQN c600 (c400 +200 it vs simpleheuristics, lr 2.5e-4)",DQN,9600,eps 0.05,curriculum (5b),maxbasepower,34,200,0.17,0.12427835351105657,0.22816001039503528
+eval2_dqn_lr1e-3_c600,"DQN c600 (c400 +200 it vs simpleheuristics, lr 2.5e-4)",DQN,9600,eps 0.05,curriculum (5b),simpleheuristics,3,200,0.015,0.005114145184492387,0.043166480556278884
+eval2_reinforce_smbp,"REINFORCE smbp (200 it vs maxbasepower, from scratch)",REINFORCE,3200,sampled,scratch (5b),random,184,200,0.92,0.8740095102048769,0.9501598448237337
+eval2_reinforce_smbp,"REINFORCE smbp (200 it vs maxbasepower, from scratch)",REINFORCE,3200,sampled,scratch (5b),maxbasepower,91,200,0.455,0.38748099090226035,0.5242151496303886
+eval2_reinforce_smbp,"REINFORCE smbp (200 it vs maxbasepower, from scratch)",REINFORCE,3200,sampled,scratch (5b),simpleheuristics,18,200,0.09,0.05768697871453362,0.13776674613848952
+eval2_reinforce_s200,"REINFORCE s200 (200 it vs simpleheuristics, from scratch)",REINFORCE,3200,sampled,scratch (5b),random,32,200,0.16,0.11567342208544587,0.2171418619390124
+eval2_reinforce_s200,"REINFORCE s200 (200 it vs simpleheuristics, from scratch)",REINFORCE,3200,sampled,scratch (5b),maxbasepower,6,200,0.03,0.013820125830748327,0.06389511973247333
+eval2_reinforce_s200,"REINFORCE s200 (200 it vs simpleheuristics, from scratch)",REINFORCE,3200,sampled,scratch (5b),simpleheuristics,1,200,0.005,0.0008831459893662054,0.02777439986977148
+eval2_reinforce_s400,"REINFORCE s400 (400 it vs simpleheuristics, from scratch)",REINFORCE,6400,sampled,scratch (5b),random,28,200,0.14,0.09866918625271481,0.19489993800847627
+eval2_reinforce_s400,"REINFORCE s400 (400 it vs simpleheuristics, from scratch)",REINFORCE,6400,sampled,scratch (5b),maxbasepower,3,200,0.015,0.005114145184492387,0.043166480556278884
+eval2_reinforce_s400,"REINFORCE s400 (400 it vs simpleheuristics, from scratch)",REINFORCE,6400,sampled,scratch (5b),simpleheuristics,0,200,0.0,0.0,0.018846005918320894
+eval2_reinforce_s600,"REINFORCE s600 (600 it vs simpleheuristics, from scratch)",REINFORCE,9600,sampled,scratch (5b),random,137,200,0.685,0.617649158589664,0.7453778192205573
+eval2_reinforce_s600,"REINFORCE s600 (600 it vs simpleheuristics, from scratch)",REINFORCE,9600,sampled,scratch (5b),maxbasepower,51,200,0.255,0.19960402982802747,0.3196305130719498
+eval2_reinforce_s600,"REINFORCE s600 (600 it vs simpleheuristics, from scratch)",REINFORCE,9600,sampled,scratch (5b),simpleheuristics,12,200,0.06,0.0346518499012715,0.10193263530685089
+eval2_dqn_v1,DQN lr 2.5e-4 (CartPole settings),DQN,3200,eps 0.05,lr check,random,139,200,0.695,0.6280132012185453,0.7546368564733095
+eval2_dqn_v1,DQN lr 2.5e-4 (CartPole settings),DQN,3200,eps 0.05,lr check,maxbasepower,35,200,0.175,0.12860441174608936,0.23364549210081922
+eval2_dqn_v1,DQN lr 2.5e-4 (CartPole settings),DQN,3200,eps 0.05,lr check,simpleheuristics,5,200,0.025,0.010724561470787711,0.05717914415161715
+eval2_dqn_v1_lr1e-3,DQN lr 1e-3 (= DQN v1 in A),DQN,3200,eps 0.05,lr check,random,160,200,0.8,0.7391436038882958,0.8495487925607118
+eval2_dqn_v1_lr1e-3,DQN lr 1e-3 (= DQN v1 in A),DQN,3200,eps 0.05,lr check,maxbasepower,64,200,0.32,0.2592642960770526,0.38752026605354306
+eval2_dqn_v1_lr1e-3,DQN lr 1e-3 (= DQN v1 in A),DQN,3200,eps 0.05,lr check,simpleheuristics,14,200,0.07,0.04215178292291873,0.11405578216683726
+eval2_dqn_v1_greedy,DQN lr 2.5e-4 (CartPole settings),DQN,3200,eps 0,lr check,random,139,200,0.695,0.6280132012185453,0.7546368564733095
+eval2_dqn_v1_greedy,DQN lr 2.5e-4 (CartPole settings),DQN,3200,eps 0,lr check,maxbasepower,46,200,0.23,0.1770925624139232,0.2930842807819702
+eval2_dqn_v1_greedy,DQN lr 2.5e-4 (CartPole settings),DQN,3200,eps 0,lr check,simpleheuristics,3,200,0.015,0.005114145184492387,0.043166480556278884
+eval2_dqn_v1_lr1e-3_greedy,DQN lr 1e-3 (= DQN v1 in A),DQN,3200,eps 0,lr check,random,168,200,0.84,0.7828581380609876,0.8843265779145542
+eval2_dqn_v1_lr1e-3_greedy,DQN lr 1e-3 (= DQN v1 in A),DQN,3200,eps 0,lr check,maxbasepower,75,200,0.375,0.3108532530524515,0.44385824842712884
+eval2_dqn_v1_lr1e-3_greedy,DQN lr 1e-3 (= DQN v1 in A),DQN,3200,eps 0,lr check,simpleheuristics,15,200,0.075,0.045974507057252416,0.12004459797332034

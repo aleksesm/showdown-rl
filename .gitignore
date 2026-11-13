@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# uv
+# uv.lock is committed; nothing to ignore here
+
+# Node (for external Showdown server)
+node_modules/
+npm-debug.log*
+
+# External cloned servers / large vendored deps
+external/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Training artifacts
+runs/
+checkpoints/
+wandb/
+*.pt
+*.pth
+*.ckpt
+tensorboard/
+
+# Local secrets / config
+.env
+.env.local
+
+# Per-user Claude Code settings (permissions allowlist etc.)
+.claude/settings.local.json
