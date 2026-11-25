@@ -14,8 +14,7 @@ Equal training budget: 200 iterations × 16 battles = 3 200 battles against `Ran
 | REINFORCE, seed 1 | 0.940 [0.90, 0.97] | 0.535 [0.47, 0.60] | 0.135 [0.09, 0.19] |
 | Double DQN, seed 0 (lr 1e-3) | 0.800 [0.74, 0.85] | 0.320 [0.26, 0.39] | 0.070 [0.04, 0.11] |
 
-Note: This is not an exhaustive table containing all results. These can be found in results/comparison.md . For instance, the best win rate vs MaxBasePowerPlayer is actually 0.55, which is higher than in this table.
-
+Note: This is not an exhaustive table containing all results. These can be found in results/comparison.md or results/comparison_table.md. For instance, there the highest win rate vs MaxBasePowerPlayer is actually 0.56 and 0.18 vs SimpleHeuristicsPlayer, which are bother higher than in this table.
 ![comparison](results/comparison.png)
 
 The other tables (greedy evaluations, the DQN learning-rate check that picked lr 1e-3 over the CartPole-derived 2.5e-4, and the curriculum ablation) are in [`results/comparison.md`](./results/comparison.md). Four more DQN runs are in no table; their evaluation files are in `results/`: 200 more iterations against RandomPlayer from the lr 2.5e-4 model (`eval2_dqn_r400`, 0.78 against random), 200 more against MaxBasePower from that one (`eval2_dqn_c600`, 0.785), 200 more iterations against RandomPlayer from the lr 1e-3 model (`eval2_dqn_lr1e-3_r400`, which collapsed to 0.33), and a run with one gradient step per transition instead of 0.25 (`eval2_dqn_v1_upt1`, which collapsed to 0.275).
